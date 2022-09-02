@@ -24,3 +24,14 @@ body {
     color:crimson;
     border:4px solid white;
 }
+@media only screen and (max-width:425px){
+     
+     .fr {
+         text-align: center;
+         margin: 10% 18px;
+         background-color:lightskyblue;
+         padding: 10px;
+         border-radius: 15px;
+         border: 10px solid white;
+     }   
+}
