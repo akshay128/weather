@@ -18,16 +18,16 @@ one_q=()=>{
     var we=document.getElementById("weather").innerHTML=data.weather[0].main;
         document.getElementById("date").innerHTML= `${date_date}/${dat_month +1}/${year} `
         if('Clouds' == we){
-            document.body.style.backgroundImage = "url('cloud.jpeg')";
+            document.body.style.backgroundImage = "url('cloud.jpeg') !important";
         }
         if('Haze' == we){
-            document.body.style.backgroundImage = "url('Stormy Weather by Judy Hall-Folde.jpeg')";
+            document.body.style.backgroundImage = "url('Stormy Weather by Judy Hall-Folde.jpeg') !important";
         } 
         if('Clear' == we){
-            document.body.style.backgroundImage = "url('Sun.jpeg')";
+            document.body.style.backgroundImage = "url('Sun.jpeg') !important";
         } 
         if('Rain' == we){
-            document.body.style.backgroundImage = "url('download.jpeg')";
+            document.body.style.backgroundImage = "url('download.jpeg') !important";
         } 
     }
      );     
