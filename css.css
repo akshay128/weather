@@ -1,5 +1,5 @@
     body {
-        background-image: url("cloud.jpeg") !important;
+        background-image: url("../cloud.jpeg") !important;
          background-repeat: no-repeat;
          background-size: cover;
      }
